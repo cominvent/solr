@@ -321,6 +321,20 @@ The default is `1000`, expressed in milliseconds.
 <writeLockTimeout>1000</writeLockTimeout>
 ----
 
+== Index Sorting
+
+Index sorting can <bla bla>... <mention SortingMergePolicy>
+
+=== indexSort
+
+Controls the sort order for the index sorting.
+
+.Example
+[source,xml]
+----
+<indexSort>timetamp desc</indexSort>
+----
+
 == Other Indexing Settings
 
 There are a few other parameters that may be important to configure for your implementation.
